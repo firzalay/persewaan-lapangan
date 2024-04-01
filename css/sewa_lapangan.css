@@ -1,0 +1,341 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEFBF6;
+}
+
+/* Navbar Start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin: 0px 2rem;
+    font-size: 1.5rem;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+
+nav h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.signin-signup ul {
+    display: flex;
+    gap: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.signin-signup ul li {
+    list-style-type: none;
+}
+
+.signin-signup ul li a {
+    text-decoration: none;
+}
+
+.sign-in a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.sign-up a {
+    color: black;
+}
+
+.logout a {
+    color: black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#user-login {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#user-login span {
+    font-weight: bold;
+}
+
+/* Navbar End */
+
+/* Main Section Start */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+form {
+    font-family: "Inter", sans-serif;
+    margin-top: 1rem;
+}
+
+form .row-1 input {
+    width: 250px;
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+form .row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.row-2 .col-1,
+.col-2,
+.col-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.row-2 .col-1 label,
+.col-2 label,
+.col-3 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-2 .col-1 input[type="date"] {
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+}
+
+.row-2 .col-2 input[type="time"] {
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+}
+
+.row-2 .col-3 input {
+    margin: 0px .5rem;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+form .row-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.row-3 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-3 select {
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+}
+
+form .row-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.row-4 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-4 select {
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+}
+
+form .row-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+form .row-5 .col-1,
+.col-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.row-5 .col-1 label,
+.col-2 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-5 .col-1 input {
+    margin: 0px .5rem;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.row-5 .col-2 input {
+    margin: 0px .5rem;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+form .row-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+form .row-6 .col-1,
+.col-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.row-6 .col-1 label,
+.col-2 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-6 .col-1 input {
+    margin: 0px .5rem;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.row-6 .col-2 input {
+    margin: 0px .5rem;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid black;
+    background-color: rgb(225, 213, 213);
+
+}
+
+form .row-7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.row-7 label {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.row-7 input {
+    margin: 0px .5rem;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid black;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(225, 213, 213);
+}
+
+
+
+form button {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: black;
+    outline: none;
+    padding: .8em 3em;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Main Section End */
